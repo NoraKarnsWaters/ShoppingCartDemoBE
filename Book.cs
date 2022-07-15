@@ -10,5 +10,7 @@ namespace backend
         public string? Name { get; set; }
         [Required]
         public decimal Price { get; set; }
+        [Required]
+        public int Qty { get; set; }
     }
 }
